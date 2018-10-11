@@ -1,0 +1,5 @@
+
+$('.ui.modal')
+  .modal('show')
+
+
