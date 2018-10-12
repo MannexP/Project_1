@@ -14,9 +14,11 @@ let q3 = document.querySelector('#q3')
 
 q1.addEventListener('click', function(){
     points += 10
-    if(points >= 30 ){
-   
-   
+    score.innerHTML = points
+    if(score.innerHTML >= 30 ){
+    alert('you won')
+    
+        // score.innerHTML = ('You Won') 
     }
     score.innerHTML = points
     box1.style.backgroundColor = "green"
