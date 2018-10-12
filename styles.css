@@ -73,10 +73,15 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 }
+.modal-footer{
+  display: grid;
+  justify-content: center;
+}
 
-  
-
-
+.game-over .level-winner {
+  opacity: 1;
+  pointer-events: all;
+}
 
 
 
