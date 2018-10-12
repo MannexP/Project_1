@@ -12,15 +12,83 @@
   }
   
 
-  #box{
+  #box1{
     text-shadow: 3px 2px black;
     color: rgb(235, 211, 24);
     font-weight: bold;
     background:blue;
 }
-    
-#category{
+#box2{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+#box3{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+#box4{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+#box5{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+
+#box6{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+#box7{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box8{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box9{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box10{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+
+  
+
+
+
+
+
+
+
+
+.category{
   background: blue;
+}
+
+.scoreBoard{
+  float:right;
 }
   
   
