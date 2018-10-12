@@ -17,24 +17,24 @@
     
 
     <div class="container">
-            <div class="btn btn-primary btn-lg" id="box1" data-toggle="modal" data-target="#exampleModal"> 
+            <div class="btn btn-primary btn-lg" id="box1" data-toggle="modal" data-target="#secondModal"> 
                     300         
              </div>
-             <div class="btn btn-primary btn-lg" id="box2" data-toggle="modal" data-target="#exampleModal"> 
-                    300         
-             </div>
-             <div>
-               
+             <div class="btn btn-primary btn-lg" id="box2" data-toggle="modal" data-target="#firstModal"> 
+                    400         
             </div>
-    
+            <div class="btn btn-primary btn-lg" id="score"> 
+                <h5>0</h5>        
+        </div>
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 
                 
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Question 100</h5>
+                  <h5 class="modal-title" id="secondModalLabel">Question 100</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -43,9 +43,35 @@
                   Where is GA located?
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" id="q1">Ponce City Market</button>
-                  <button type="button" class="btn btn-primary" id="q2">Buckhead</button>
-                  <button type="button" class="btn btn-primary" id="q3">Times Square</button>
+                  <button type="button" class="btn btn-primary" id="q1" data-dismiss="modal">Ponce City Market</button>
+                  <button type="button" class="btn btn-primary" id="q2" data-dismiss="modal">Buckhead</button>
+                  <button type="button" class="btn btn-primary" id="q3" data-dismiss="modal">Times Square</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+        <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="firstModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                
+                
+                <div class="modal-header">
+                  <h5 class="modal-title" id="firstModalLabel">Question 100</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Where is ATL located?
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" id="q4" data-dismiss="modal">Ponce City Market</button>
+                  <button type="button" class="btn btn-primary" id="q5" data-dismiss="modal">Buckhead</button>
+                  <button type="button" class="btn btn-primary" id="q6" data-dismiss="modal">Times Square</button>
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
                 </div>
