@@ -6,185 +6,256 @@
     grid-gap: .5em;
     grid-auto-rows: 100px;
     border: 2px solid;
-    padding: 10px;
+    padding: 20px 10px;
     margin:100px;
     background: rgb(2, 2, 2);
   }
+
+.answer{
+  display: flex;
+  justify-content: space-evenly;
+  color: white; 
+}
+
+
   
 
-  #box1{
-    text-shadow: 3px 2px black;
-    color: rgb(235, 211, 24);
-    font-weight: bold;
-    background:blue;
+#box1{
+text-shadow:3px 2px black;
+color:rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
 }
+#box1: hover{
+  border:2px solid yellow;
+}
+.modal-body{
+background: blue;
+ color: white;
+ text-align: center;
+}
+
+.modal-footer{
+background: blue;
+color: white;
+}
+.modal-header{
+  background: blue;
+  color: white; 
+}
+.modal-title {
+display: flex;
+justify-content: center;  
+}
+#q1, #q2, #q3 {
+background: blue;
+}
+
+button{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
 #box2{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+#box2:hover{
+  border: 2px solid yellow;
 }
 #box3{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+#box3:hover{
+  border: 2px solid yellow;
 }
 #box4{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+#box4:hover{
+  border: 2px solid yellow;
 }
 #box5{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+#box5:hover{
+  border: 2px solid yellow;
 }
 
 #box6{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+  #box6:hover{
+    border: 2px solid yellow;
+  }
+#box7{
   text-shadow: 3px 2px black;
   color: rgb(235, 211, 24);
   font-weight: bold;
   background:blue;
-}
-#box7{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  border-radius: 0%;
+  }
+  #box7:hover{
+    border: 2px solid yellow;
+  }
 #box8{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box8:hover{
+    border: 2px solid yellow;
+  }
 #box9{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box9:hover{
+    border: 2px solid yellow;
+  }
 #box10{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box10:hover{
+    border: 2px solid yellow;
+  }
 
 #box11{
   text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+border-radius: 0%;
+}
+#box11:hover{
+  border: 2px solid yellow;
 }
 #box12{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box12:hover{
+    border: 2px solid yellow;
+  }
 #box13{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box13:hover{
+    border: 2px solid yellow;
+  }
 #box14{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box14:hover{
+    border: 2px solid yellow;
+  }
 #box15{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box15:hover{
+    border: 2px solid yellow;
+  }
 
 #box16{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box16:hover{
+    border: 2px solid yellow;
+  }
 #box17{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box17:hover{
+    border: 2px solid yellow;
+  }
 #box18{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box18:hover{
+    border: 2px solid yellow;
+  }
 #box19{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  border-radius: 0%;
+  }
+  #box19:hover{
+    border: 2px solid yellow;
+  }
+
 #box20{
-text-shadow: 3px 2px black;
-color: rgb(235, 211, 24);
-font-weight: bold;
-background:blue;
-}
-
-#box21{
   text-shadow: 3px 2px black;
   color: rgb(235, 211, 24);
   font-weight: bold;
   background:blue;
+  border-radius: 0%;
   }
-  #box22{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
-  }
-  #box23{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
-  }
-  #box24{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
-  }
-  #box25{
-  text-shadow: 3px 2px black;
-  color: rgb(235, 211, 24);
-  font-weight: bold;
-  background:blue;
+  #box20:hover{
+    border: 2px solid yellow;
   }
 
 
-
-
-}
-
-
-
-
-
-
-.category{
-  background: blue;
-}
-
-.scoreBoard{
-  float:right;
-}
-  
+ 
   
   
 

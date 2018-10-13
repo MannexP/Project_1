@@ -47,6 +47,8 @@ q3.addEventListener('click', function(){
             points -= 10
             score.innerHTML = points
             box2.style.backgroundColor = "red"
+            box2.removeAttribute('data-toggle')
+   
         
         })
 
@@ -54,7 +56,9 @@ q3.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
         box2.style.backgroundColor = "green"
-                        })
+        box2.removeAttribute('data-toggle')
+   
+        })
 
         q6.addEventListener('click', function(){
         points -= 10
@@ -69,19 +73,25 @@ let q9 = document.querySelector('#q9')
 q7.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-box3.style.backgroundColor = "red"               
+box3.style.backgroundColor = "red" 
+box3.removeAttribute('data-toggle')
+                 
 })
 
 q8.addEventListener('click', function(){
     points += 10
     score.innerHTML = points
     box3.style.backgroundColor = "green"
+    box3.removeAttribute('data-toggle')
+   
 })
 
 q9.addEventListener('click', function(){
     points -= 10
     score.innerHTML = points
     box3.style.backgroundColor = "red"
+    box3.removeAttribute('data-toggle')
+   
 })
 
         let q10 = document.querySelector('#q10')
@@ -91,19 +101,25 @@ q9.addEventListener('click', function(){
             q10.addEventListener('click', function(){
                 points -= 10
                 score.innerHTML = points
-                box4.style.backgroundColor = "red"               
+                box4.style.backgroundColor = "red"  
+                box4.removeAttribute('data-toggle')
+                
                 })
             
             q11.addEventListener('click', function(){
                 points += 10
                 score.innerHTML = points
                 box4.style.backgroundColor = "green"
+                box4.removeAttribute('data-toggle')
+   
             })
             
             q12.addEventListener('click', function(){
                 points -= 10
                 score.innerHTML = points
                 box4.style.backgroundColor = "red"
+                box4.removeAttribute('data-toggle')
+   
             })
 let q13 = document.querySelector('#q13')
 let q14 = document.querySelector('#q14')
@@ -112,19 +128,25 @@ let q15 = document.querySelector('#q15')
 q13.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-box5.style.backgroundColor = "red"               
+box5.style.backgroundColor = "red" 
+box5.removeAttribute('data-toggle')
+                 
 })
                 
 q14.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
 box5.style.backgroundColor = "green"
+box5.removeAttribute('data-toggle')
+   
 })
                 
 q15.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
 box5.style.backgroundColor = "red"
+box5.removeAttribute('data-toggle')
+   
 })
 
         let q16 = document.querySelector('#q16')
@@ -134,19 +156,25 @@ box5.style.backgroundColor = "red"
         q16.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
-        box6.style.backgroundColor = "red"               
+        box6.style.backgroundColor = "red" 
+        box6.removeAttribute('data-toggle')
+                 
         })
                         
         q17.addEventListener('click', function(){
         points -= 10
         score.innerHTML = points
         box6.style.backgroundColor = "red"
+        box6.removeAttribute('data-toggle')
+   
         })
                         
         q18.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
         box6.style.backgroundColor = "green";
+        box6.removeAttribute('data-toggle')
+   
         })
 let q19 = document.querySelector('#q19')
 let q20 = document.querySelector('#q20')
@@ -155,19 +183,25 @@ let q21 = document.querySelector('#q21')
 q19.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-box7.style.backgroundColor = "red"               
+box7.style.backgroundColor = "red"  
+box7.removeAttribute('data-toggle')
+                
 })
                         
 q20.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
 box7.style.backgroundColor = "red"
+box7.removeAttribute('data-toggle')
+   
 })
                         
 q21.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
 box7.style.backgroundColor = "green"
+box7.removeAttribute('data-toggle')
+   
 })
 
 
