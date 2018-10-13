@@ -8,19 +8,18 @@ let box4 = document.querySelector('#box4')
 let box5 = document.querySelector('#box5')
 let points = 0
 
+    
+
 let q1 = document.querySelector('#q1')
 let q2 = document.querySelector('#q2')
 let q3 = document.querySelector('#q3')
 
 q1.addEventListener('click', function(){
-    points += 10
-    score.innerHTML = points
-    if(score.innerHTML >= 30 ){
+   points += 10
+   score.innerHTML = points
+   if(score.innerHTML >= 30 ){
     alert('you won')
-    
-        // score.innerHTML = ('You Won') 
-    }
-    score.innerHTML = points
+    }   
     box1.style.backgroundColor = "green"
     box1.removeAttribute('data-toggle')
    
@@ -170,6 +169,9 @@ points += 10
 score.innerHTML = points
 box7.style.backgroundColor = "green"
 })
+
+
+
 
 
 

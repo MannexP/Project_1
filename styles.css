@@ -73,14 +73,103 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 }
-.modal-footer{
-  display: grid;
-  justify-content: center;
+
+#box11{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+}
+#box12{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box13{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box14{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box15{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
 }
 
-.game-over .level-winner {
-  opacity: 1;
-  pointer-events: all;
+#box16{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box17{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box18{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box19{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+#box20{
+text-shadow: 3px 2px black;
+color: rgb(235, 211, 24);
+font-weight: bold;
+background:blue;
+}
+
+#box21{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  }
+  #box22{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  }
+  #box23{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  }
+  #box24{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  }
+  #box25{
+  text-shadow: 3px 2px black;
+  color: rgb(235, 211, 24);
+  font-weight: bold;
+  background:blue;
+  }
+
+
+
+
 }
 
 
