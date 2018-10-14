@@ -10,17 +10,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <title>Document</title>
 </head>
 
-<body>   
-<div class="btn btn-primary btn-lg" id="scoreBoard">
-<h1>0</h1>
+<body> 
+   
+
+<div class="scoreBoard" id="playerScore">
+  
+<h1>Player Score: 0</h1>
 </div>
 
-
+  
     <div class="container">
+  
         
       <div class="btn btn-secondary btn-lg">
         MUSIC       
@@ -31,73 +34,35 @@
       <div class="btn btn-secondary btn-lg category">
         MATH        
       </div>
-      <div class="btn btn-secondary btn-lg category">
-        SCIENCE         
-      </div>
-      <div class="btn btn-secondary btn-lg category">
-        QUANTAM PHYSICS       
-      </div>
-      
+
       <div class="btn btn-primary btn-lg"  id="box1" data-toggle="modal" data-target="#firstModal"> 
-        $100         
+        $10         
       </div>
       <div class="btn btn-primary btn-lg"  id="box2" data-toggle="modal" data-target="#secondModal"> 
-        $100         
+        $10         
       </div>
       <div class="btn btn-primary btn-lg"  id="box3" data-toggle="modal" data-target="#thirdModal"> 
-        $100         
+        $10         
       </div>
       <div class="btn btn-primary btn-lg"  id="box4" data-toggle="modal" data-target="#fourthModal"> 
-        $100         
+        $20         
       </div>
       <div class="btn btn-primary btn-lg"  id="box5" data-toggle="modal" data-target="#fifthModal"> 
-        $100         
+        $20         
       </div>
       <div class="btn btn-primary btn-lg"  id="box6" data-toggle="modal" data-target="#sixthModal"> 
-        $200          
+        $20          
       </div>
       <div class="btn btn-primary btn-lg"  id="box7" data-toggle="modal" data-target="#seventhModal"> 
-        $200         
+        $30         
       </div>
-      <div class="btn btn-primary btn-lg"  id="box8" data-toggle="modal" data-target="#eigthModal"> 
-        $200         
+      <div class="btn btn-primary btn-lg"  id="box8" data-toggle="modal" data-target="#eightModal"> 
+        $30         
       </div>
       <div class="btn btn-primary btn-lg"  id="box9" data-toggle="modal" data-target="#ninthModal"> 
-        $200         
+        $30         
       </div>
-      <div class="btn btn-primary btn-lg"  id="box10" data-toggle="modal" data-target="#tenthModal"> 
-        $200         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box11" data-toggle="modal" data-target="#elevenModal"> 
-        $300         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box12" data-toggle="modal" data-target="#twelveModal"> 
-        $300         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box13" data-toggle="modal" data-target="#thirteenModal"> 
-        $300         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box14" data-toggle="modal" data-target="#fourteenModal"> 
-        $300         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box15" data-toggle="modal" data-target="#fifteenModal"> 
-        $300         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box16" data-toggle="modal" data-target="#sixteenModal"> 
-        $400         
-      </div>
-      <div class="btn btn-primary btn-lg "  id="box17" data-toggle="modal" data-target="#seventeenModal"> 
-        $400         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box18" data-toggle="modal" data-target="#eighteenModal"> 
-        $400         
-      </div>
-      <div class="btn btn-primary btn-lg"  id="box19" data-toggle="modal" data-target="#nineteenModal">
-        $400
-      </div>  
-      <div class="btn btn-primary btn-lg"  id="box20" data-toggle="modal" data-target="#twentyModal">
-          $400
-        </div>  
+     
         
      
 </div>
@@ -126,7 +91,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="secondModalLabel">Question 100</h5>
+                  <h5 class="modal-title" id="secondModalLabel">GEO 100</h5>
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -148,7 +113,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="thirdModalLabel">Question 100</h5>
+              <h5 class="modal-title" id="thirdModalLabel">MATH 100</h5>
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
@@ -159,7 +124,7 @@
               <button type="button" class="btn btn-primary" id="q7" data-dismiss="modal">29</button>
               <button type="button" class="btn btn-primary" id="q8" data-dismiss="modal">24</button>
               <button type="button" class="btn btn-primary" id="q9" data-dismiss="modal">CAT</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              
             </div>
           </div>
         </div>
@@ -169,7 +134,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="fourthModalLabel">Question 100</h5>
+              <h5 class="modal-title" id="fourthModalLabel">MUSIC 200</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -181,7 +146,7 @@
               <button type="button" class="btn btn-primary" id="q10" data-dismiss="modal">Law 1</button>
               <button type="button" class="btn btn-primary" id="q11" data-dismiss="modal">Law 2</button>
               <button type="button" class="btn btn-primary" id="q12" data-dismiss="modal">Law 3</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              
             </div>
           </div>
         </div>
@@ -191,7 +156,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="fifthModalLabel">Question 100</h5>
+              <h5 class="modal-title" id="fifthModalLabel">GEO 200</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -203,7 +168,7 @@
               <button type="button" class="btn btn-primary" id="q13" data-dismiss="modal">Rolling ball</button>
               <button type="button" class="btn btn-primary" id="q14" data-dismiss="modal">Strecthing rubber band</button>
               <button type="button" class="btn btn-primary" id="q15" data-dismiss="modal">A cat</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              
             </div>
           </div>
         </div>
@@ -213,7 +178,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="sixthModalLabel">Question 200</h5>
+              <h5 class="modal-title" id="sixthModalLabel">MATH 200</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -234,7 +199,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="seventhModalLabel">Question 200</h5>
+              <h5 class="modal-title" id="seventhModalLabel">MUSIC 300</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -250,17 +215,61 @@
           </div>
         </div>
     </div>
+    <div class="modal fade" id="eightModal" tabindex="-1" role="dialog" aria-labelledby="eightModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="eightModalLabel">GEO 300</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                What is 10-10?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="q22" data-dismiss="modal">2</button>
+              <button type="button" class="btn btn-primary" id="q23" data-dismiss="modal">0</button>
+              <button type="button" class="btn btn-primary" id="q24" data-dismiss="modal">10</button>
+            </div>
+          </div>
+        </div>
+    </div>
     
-        
-     
-         
+    <div class="modal fade" id="ninthModal" tabindex="-1" role="dialog" aria-labelledby="ninthModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ninthModalLabel">MATH 300</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                What is 10-10?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="q25" data-dismiss="modal">2</button>
+              <button type="button" class="btn btn-primary" id="q26" data-dismiss="modal">0</button>
+              <button type="button" class="btn btn-primary" id="q27" data-dismiss="modal">10</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>   
+    
+  </div>   
 
+
+</div>   
+     
+        
         
     
 
         <script src='main.js'></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="yourPath/animatedModal.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+       
    
 </body>
 
