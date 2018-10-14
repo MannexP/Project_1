@@ -8,7 +8,23 @@
   border: 2px solid;
   padding: 10px;
   background: rgb(2, 2, 2);
-  margin-top: 40px;
+  margin-top: 0%;
+}
+
+.score{
+  background: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom:0%;
+}
+
+.logo{
+display:flex;
+justify-content: center;
+margin-top:30px;
+margin-bottom: 40px;
+
 }
 button{
   display: flex;
@@ -33,14 +49,14 @@ button{
   display: flex;
   justify-content: center;  
   }
- .scoreBoard {
-  display: flex;
-  justify-content: center;
-  margin-top:0px;
-  margin-bottom:200px;
-  background: blue;
-
-}
+  .scoreBoard {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    background: blue;
+    border-radius: 3%;
+  }
 #firstModalLabel{
   align-content: center;
 }
