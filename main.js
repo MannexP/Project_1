@@ -203,7 +203,7 @@ box7.style.backgroundColor = "green"
 box7.removeAttribute('data-toggle')
    
 })
-
+$("#demo01").animatedModal();
 
 
 
