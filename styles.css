@@ -3,59 +3,68 @@
   display:grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap: .5em;
+  grid-gap: 3px;
   grid-auto-rows: 100px;
   border: 2px solid;
   padding: 10px;
   background: rgb(2, 2, 2);
+  margin-top: 40px;
 }
+button{
+  display: flex;
+  justify-content: space-evenly;
+}
+.modal-body{
+  background: blue;
+   color: white;
+   text-align: center;
+  }
+  
+  .modal-footer{
+  background: blue;
+  color: white;
 
-
-
+  }
+  .modal-header{
+    background: blue;
+    color: white; 
+  }
+  .modal-title {
+  display: flex;
+  justify-content: center;  
+  }
  .scoreBoard {
   display: flex;
   justify-content: center;
- 
   margin-top:0px;
-  margin-bottom:0px;
+  margin-bottom:200px;
   background: blue;
 
 }
+#firstModalLabel{
+  align-content: center;
+}
 
-.modal-body{
-  background: blue;
-  color: white;
-  text-align: center;
-}   
-.modal-footer{
-  background: blue;
-  color: white;
-}
-.modal-header{
-  background: blue;
-  color: white; 
-}
-.modal-title {
-  display: flex;
-  justify-content: center;  
-}
-/* .modal-dialog {
-  width: 100%;
-  height: 100%;
+ .modal-dialog {
+  width: 50%;
+  height: 50%;
   margin: 0;
   padding: 0;
-}
+
+} 
 
 .modal-content {
-  height: 100%;
-  min-height: 100%;
+  height: 50%;
+  min-height: 50%;
   border-radius: 0;
 }
-    */
-.answer{
+    
+.answer-button{
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
   color: white; 
+  background: blue;
 }
 
 
@@ -65,39 +74,12 @@ color:rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
+
 }
 #box1:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
-
-.modal-body{
-background: blue;
- color: white;
- text-align: center;
-}
-
-.modal-footer{
-background: blue;
-color: white;
-}
-.modal-header{
-  background: blue;
-  color: white; 
-}
-.modal-title {
-display: flex;
-justify-content: center;  
-}
-#q1, #q2, #q3 {
-background: blue;
-}
-
-button{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
 
 #box2{
 text-shadow: 3px 2px black;
@@ -105,9 +87,10 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
 #box2:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 #box3{
 text-shadow: 3px 2px black;
@@ -115,9 +98,10 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
 #box3:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 #box4{
 text-shadow: 3px 2px black;
@@ -125,9 +109,10 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
 #box4:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 #box5{
 text-shadow: 3px 2px black;
@@ -135,9 +120,10 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
 #box5:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 
 #box6{
@@ -146,19 +132,20 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
   #box6:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box7{
   text-shadow: 3px 2px black;
   color: rgb(235, 211, 24);
   font-weight: bold;
   background:blue;
-  border-radius: 0%;
+ 
   }
   #box7:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box8{
   text-shadow: 3px 2px black;
@@ -166,9 +153,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box8:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box9{
   text-shadow: 3px 2px black;
@@ -176,9 +164,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box9:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box10{
   text-shadow: 3px 2px black;
@@ -186,9 +175,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+ 
   }
   #box10:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 
 #box11{
@@ -197,9 +187,10 @@ color: rgb(235, 211, 24);
 font-weight: bold;
 background:blue;
 border-radius: 0%;
+
 }
 #box11:hover{
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 #box12{
   text-shadow: 3px 2px black;
@@ -207,9 +198,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box12:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box13{
   text-shadow: 3px 2px black;
@@ -217,9 +209,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box13:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box14{
   text-shadow: 3px 2px black;
@@ -227,9 +220,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box14:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box15{
   text-shadow: 3px 2px black;
@@ -237,9 +231,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+ 
   }
   #box15:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 
 #box16{
@@ -248,9 +243,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box16:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box17{
   text-shadow: 3px 2px black;
@@ -258,9 +254,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box17:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box18{
   text-shadow: 3px 2px black;
@@ -268,9 +265,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box18:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 #box19{
   text-shadow: 3px 2px black;
@@ -278,9 +276,10 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+ 
   }
   #box19:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 
 #box20{
@@ -289,15 +288,13 @@ border-radius: 0%;
   font-weight: bold;
   background:blue;
   border-radius: 0%;
+  
   }
   #box20:hover{
-    border: 2px solid yellow;
+    border: 1px solid yellow;
   }
 
-#box20 .red {
-  background: 'red' !important;
-}
- 
+
   
   
 

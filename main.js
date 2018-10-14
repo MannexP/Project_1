@@ -1,3 +1,18 @@
+const theme = new Audio();
+theme.src = "theme.mp3";
+
+const ding = new Audio();
+ding.src = "ding.mp3";
+
+const buzzer = new Audio();
+buzzer.src = "buzzer.mp3";
+
+
+
+function pauseAudio() { 
+theme.pause(); 
+}
+
 
 let score =document.querySelector('h1')
 let scoreBoard = document.querySelector('.score')
@@ -21,30 +36,25 @@ let q3 = document.querySelector('#q3')
 q1.addEventListener('click', function(){
    points += 10
    score.innerHTML = points
-   if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
-    box1.style.backgroundColor = "green"
-    box1.removeAttribute('data-toggle')
+   box1.style.backgroundColor = "green"
+   box1.removeAttribute('data-toggle')
+   theme.pause()
+
    
 })
 
 q2.addEventListener('click', function(){
     points -= 10
     score.innerHTML = points
-    if(score.innerHTML >= 90 ){
-        swal("WINNER!")
-        }   
     box1.style.backgroundColor = "red" 
     box1.removeAttribute('data-toggle')
+    theme.pause()
 })
 
 q3.addEventListener('click', function(){
     points -= 10
     score.innerHTML = points
-    if(score.innerHTML >= 90 ){
-        swal("WINNER!")
-        }   
+    
     box1.style.backgroundColor = "red"   
     box1.removeAttribute('data-toggle')
 })
@@ -56,9 +66,7 @@ q3.addEventListener('click', function(){
         q4.addEventListener('click', function(){
             points -= 10
             score.innerHTML = points
-            if(score.innerHTML >= 90 ){
-                swal("WINNER!")
-                }   
+            
             box2.style.backgroundColor = "red"
             box2.removeAttribute('data-toggle')
    
@@ -68,9 +76,7 @@ q3.addEventListener('click', function(){
         q5.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
-        if(score.innerHTML >= 90 ){
-            swal("WINNER!")
-            }   
+        
         box2.style.backgroundColor = "green"
         box2.removeAttribute('data-toggle')
    
@@ -79,9 +85,7 @@ q3.addEventListener('click', function(){
         q6.addEventListener('click', function(){
         points -= 10
         score.innerHTML = points
-        if(score.innerHTML >= 90 ){
-            swal("WINNER!")
-            }   
+        
         box2.style.backgroundColor = "red"
         box2.removeAttribute('data-toggle')
         })
@@ -93,9 +97,7 @@ let q9 = document.querySelector('#q9')
 q7.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+ 
 box3.style.backgroundColor = "red" 
 box3.removeAttribute('data-toggle')
                  
@@ -104,9 +106,7 @@ box3.removeAttribute('data-toggle')
 q8.addEventListener('click', function(){
     points += 10
     score.innerHTML = points
-    if(score.innerHTML >= 90 ){
-        swal("WINNER!")
-        }   
+    
     box3.style.backgroundColor = "green"
     box3.removeAttribute('data-toggle')
    
@@ -115,9 +115,7 @@ q8.addEventListener('click', function(){
 q9.addEventListener('click', function(){
     points -= 10
     score.innerHTML = points
-    if(score.innerHTML >= 90 ){
-        swal("WINNER!")
-        }   
+    
     box3.style.backgroundColor = "red"
     box3.removeAttribute('data-toggle')
    
@@ -130,9 +128,7 @@ q9.addEventListener('click', function(){
             q10.addEventListener('click', function(){
                 points -= 10
                 score.innerHTML = points
-                if(score.innerHTML >= 90 ){
-                    swal("WINNER!")
-                    }   
+                
                 box4.style.backgroundColor = "red"  
                 box4.removeAttribute('data-toggle')
                 
@@ -141,9 +137,7 @@ q9.addEventListener('click', function(){
             q11.addEventListener('click', function(){
                 points += 10
                 score.innerHTML = points
-                if(score.innerHTML >= 90 ){
-                    swal("WINNER!")
-                    }   
+                 
                 box4.style.backgroundColor = "green"
                 box4.removeAttribute('data-toggle')
    
@@ -152,9 +146,7 @@ q9.addEventListener('click', function(){
             q12.addEventListener('click', function(){
                 points -= 10
                 score.innerHTML = points
-                if(score.innerHTML >= 90 ){
-                    swal("WINNER!")
-                    }   
+                
                 box4.style.backgroundColor = "red"
                 box4.removeAttribute('data-toggle')
    
@@ -166,9 +158,7 @@ let q15 = document.querySelector('#q15')
 q13.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+ 
 box5.style.backgroundColor = "red" 
 box5.removeAttribute('data-toggle')
                  
@@ -177,9 +167,7 @@ box5.removeAttribute('data-toggle')
 q14.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+  
 box5.style.backgroundColor = "green"
 box5.removeAttribute('data-toggle')
    
@@ -188,9 +176,7 @@ box5.removeAttribute('data-toggle')
 q15.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+ 
 box5.style.backgroundColor = "red"
 box5.removeAttribute('data-toggle')
    
@@ -203,9 +189,7 @@ box5.removeAttribute('data-toggle')
         q16.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
-        if(score.innerHTML >= 90 ){
-            swal("WINNER!")
-            }   
+         
         box6.style.backgroundColor = "red" 
         box6.removeAttribute('data-toggle')
                  
@@ -214,9 +198,7 @@ box5.removeAttribute('data-toggle')
         q17.addEventListener('click', function(){
         points -= 10
         score.innerHTML = points
-        if(score.innerHTML >= 90 ){
-            swal("WINNER!")
-            }   
+         
         box6.style.backgroundColor = "red"
         box6.removeAttribute('data-toggle')
    
@@ -225,9 +207,7 @@ box5.removeAttribute('data-toggle')
         q18.addEventListener('click', function(){
         points += 10
         score.innerHTML = points
-        if(score.innerHTML >= 90 ){
-            swal("WINNER!")
-            }   
+        
         box6.style.backgroundColor = "green";
         box6.removeAttribute('data-toggle')
    
@@ -239,9 +219,7 @@ let q21 = document.querySelector('#q21')
 q19.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+
 box7.style.backgroundColor = "red"  
 box7.removeAttribute('data-toggle')
                 
@@ -250,9 +228,7 @@ box7.removeAttribute('data-toggle')
 q20.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+  
 box7.style.backgroundColor = "red"
 box7.removeAttribute('data-toggle')
    
@@ -261,9 +237,7 @@ box7.removeAttribute('data-toggle')
 q21.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+
 box7.style.backgroundColor = "green"
 box7.removeAttribute('data-toggle')
 })
@@ -275,9 +249,7 @@ let q24 = document.querySelector('#q24')
 q22.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+
 box8.style.backgroundColor = "red"  
 box8.removeAttribute('data-toggle')
                 
@@ -286,9 +258,7 @@ box8.removeAttribute('data-toggle')
 q23.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+  
 box8.style.backgroundColor = "green"
 box8.removeAttribute('data-toggle')
    
@@ -297,9 +267,7 @@ box8.removeAttribute('data-toggle')
 q24.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+ 
 box8.style.backgroundColor = "red"
 box8.removeAttribute('data-toggle') 
 })
@@ -310,9 +278,7 @@ let q27 = document.querySelector('#q27')
 q25.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+  
 box9.style.backgroundColor = "red"  
 box9.removeAttribute('data-toggle')
                 
@@ -321,9 +287,7 @@ box9.removeAttribute('data-toggle')
 q26.addEventListener('click', function(){
 points += 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }  
+
 box9.style.backgroundColor = "green"
 box9.removeAttribute('data-toggle')
    
@@ -332,12 +296,11 @@ box9.removeAttribute('data-toggle')
 q27.addEventListener('click', function(){
 points -= 10
 score.innerHTML = points
-if(score.innerHTML >= 90 ){
-    swal("WINNER!")
-    }   
+ 
 box9.style.backgroundColor = "red"
 box9.removeAttribute('data-toggle') 
 })
+
  
 
 
