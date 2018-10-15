@@ -26,6 +26,7 @@ margin-top:30px;
 margin-bottom: 40px;
 
 }
+
 button{
   display: flex;
   justify-content: space-evenly;
@@ -54,7 +55,7 @@ button{
     justify-content: center;
     margin-top:10px;
     margin-bottom:10px;
-    background: blue;
+  
     border-radius: 3%;
   }
 #firstModalLabel{
