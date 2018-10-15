@@ -35,7 +35,7 @@ button{
   background: blue;
    color: white;
    text-align: center;
-  }
+}
   
   .modal-footer{
   background: blue;
@@ -46,10 +46,12 @@ button{
     background: blue;
     color: white; 
   }
+
   .modal-title {
   display: flex;
   justify-content: center;  
   }
+
   .scoreBoard {
     display: flex;
     justify-content: center;
@@ -62,7 +64,7 @@ button{
   align-content: center;
 }
 
- .modal-dialog {
+.modal-dialog {
   width: 50%;
   height: 50%;
   margin: 0;
