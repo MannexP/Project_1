@@ -27,4 +27,4 @@ https://trello.com/b/2NIeFRzA/project-1
 Scalability! As i began to pseudo code a player 1 and player 2 game play. I realized how many lines of code would have to be changed in order to create that function within the game. I began to look at the game as an object and not as cause and event click functions. The approach taken works, but does not create a cohesive game. As is, the game is functional and serves its purpose to the user.
 
 #Phase 2
-Creating an OOP game. Inserting  questions, answers and tiles into an object, in order to manipulate the  DOM through calling keys and values from the object which is the game. Createan event target function that will loop through the object, pull the data and present it through a prompt/modal or something similar.
+Creating an OOP game. Inserting  questions, answers and tiles into an object, in order to manipulate the  DOM through calling keys and values from the object which is the game. Createan event target function that will loop through the object, pull the data and present it through a prompt/modal or something similar. Another feature could be so that the loop randomizes the question appeared. 
