@@ -19,7 +19,7 @@ VS Code
 #Initial Wireframe
 https://www.figma.com/file/NaKfCsTRPtrOG4Ls9y4hUfcK/PROJECT-1?node-id=0%3A1
 
-<img src="wireframe.png>
+<img src="wireframe.png">
 
 
 #Trello
