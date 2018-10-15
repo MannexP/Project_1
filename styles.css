@@ -313,6 +313,10 @@ border-radius: 0%;
     border: 1px solid yellow;
   }
 
+  #reloadModal{
+    display:none;
+  }
+
 
   
   
