@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .box h1{
     color:rgb(255, 238, 0);
@@ -66,3 +67,20 @@
     background: rgb(192, 136, 32);
       
   }
+
+
+  #box1{
+    text-shadow:3px 2px black;
+    font-weight: bold;
+    background:blue;
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    #box1:hover{
+      border: 1px solid yellow;
+    }
