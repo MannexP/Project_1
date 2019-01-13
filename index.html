@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -23,7 +24,7 @@
             <h1></h1>
           </div>
         </div>
-        <!-- <div class="categories">
+        <div class="categories">
             <div class="category">
                 MUSIC
               </div>             
@@ -44,15 +45,13 @@
               </div>
 
         </div>
-         -->
-
-
+        
 
 
             <div class="container">    
-                <div class="btn btn-primary btn-lg" onmousedown="theme.play()"  id="box1" data-toggle="modal" data-target="#firstModal">
+                <!-- <div class="btn btn-primary btn-lg" onmousedown="theme.play()"  id="box1" data-toggle="modal" data-target="#firstModal"> -->
                   10
-                </div> 
+                <!-- </div>  -->
                   <div class="btn btn-primary btn-lg" onmousedown="theme.play()" id="box2" data-toggle="modal" data-target="#secondModal">
                     10
                   </div> 
@@ -78,66 +77,71 @@
               30
             </div>        
         </div>
-
-        <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="firstModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header"> 
-                  <h5 class="modal-title" id="firstModalLabel">MUSIC 100</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  Coined popular phrase "Can't Stop Won't Stop"
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="answer-button" onmousedown="ding.play()"  id="q1" data-dismiss="modal">Who is P.Diddy?</button>
-                  <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q2" data-dismiss="modal">Who is D. Piddy?</button>
-                  <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q3" data-dismiss="modal">Who is Crabby Patty?</button>
+  
+          <div class="modal animated slideInDown " id="firstModal" tabindex="-1" role="dialog" aria-labelledby="firstModalLabel" aria-hidden="true">
+              <div class="modal-dialog-centered modal-dialog-centered " role="document">
+                <div class="modal-content">
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="firstModalLabel">MUSIC 100</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Coined popular phrase "Can't Stop Won't Stop"
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="answer-button" onmousedown="ding.play()"  id="q1" data-dismiss="modal">Who is P.Diddy?</button>
+                    <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q2" data-dismiss="modal">Who is D. Piddy?</button>
+                    <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q3" data-dismiss="modal">Who is Crabby Patty?</button>
+                  </div>
                 </div>
               </div>
-            </div>
-        </div>
-        <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+          </div>
+          
+          <div class="modal animated slideInDown " id="secondModal" tabindex="-1" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
+              <div class="modal-dialog-centered modal-dialog-centered " role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="secondModalLabel">GEO 100</h5>
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Home of "WDI 18"
-                    </div>
-                    <div class="modal-footer">
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="secondModalLabel">MUSIC 100</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Coined popular phrase "Can't Stop Won't Stop"
+                  </div>
+                  <div class="modal-footer">
                       <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q4" data-dismiss="modal">Where is Waldo?</button>
                       <button type="button" class="answer-button" onmousedown="ding.play()" id="q5" data-dismiss="modal">What is General Assembly?</button>
                       <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q6" data-dismiss="modal">Where is Midtown?</button>
-                    </div>
-                </div>
-            </div>
-        </div>   
-        <div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="thirdModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="thirdModalLabel">MATH 100</h5>
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  9
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q7" data-dismiss="modal">What is math?</button>
-                  <button type="button" class="answer-button" onmousedown="ding.play()" id="q8" data-dismiss="modal">What is 3 x 3?</button>
-                  <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q9" data-dismiss="modal">What is 2 X 4?</button>
-                  
+                  </div>
                 </div>
               </div>
-            </div>
-        </div>
+          </div>
+        
+       
+          <div class="modal animated slideInDown " id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="thirdModalLabel" aria-hidden="true">
+              <div class="modal-dialog-centered modal-dialog-centered " role="document">
+                <div class="modal-content">
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="thirdModalLabel">MUSIC 100</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Coined popular phrase "Can't Stop Won't Stop"
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q5" data-dismiss="modal">Where is Waldo?</button>
+                      <button type="button" class="answer-button" onmousedown="ding.play()" id="q6" data-dismiss="modal">What is General Assembly?</button>
+                      <button type="button" class="answer-button" onmousedown="buzzer.play()" id="q7" data-dismiss="modal">Where is Midtown?</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
         <div class="modal fade" id="fourthModal" tabindex="-1" role="dialog" aria-labelledby="fourthModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
@@ -268,6 +272,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="yourPath/animatedModal.min.js"></script>
     <script src='main.js'></script>
+
 </body>
 </html> 

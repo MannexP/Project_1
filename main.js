@@ -27,6 +27,8 @@ let box7 = document.querySelector('#box7')
 let box8 = document.querySelector('#box8')
 let box9 = document.querySelector('#box9')
 let points = 0
+
+
 let q1 = document.querySelector('#q1')
 let q2 = document.querySelector('#q2')
 let q3 = document.querySelector('#q3')
